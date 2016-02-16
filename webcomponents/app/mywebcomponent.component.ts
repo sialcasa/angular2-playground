@@ -1,4 +1,5 @@
 import {Component, View} from 'angular2/core';
+import {ViewEncapsulation} from "angular2/core";
 
 @Component({
   selector: 'my-component',
@@ -14,7 +15,9 @@ import {Component, View} from 'angular2/core';
         &copy; Foo
       </div>
     </div>
-  `
+  `,
+  //SHADOW DOM
+  encapsulation: ViewEncapsulation.Native
 })
 export class MyWebcomponent {
   constructor() {
