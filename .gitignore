@@ -28,8 +28,8 @@ build/Release
 .idea/
  
 #src
-/app/**/*.js
-/app/**/*.map
+**/app/**/*.js
+**/app/**/*.map
 
 # Users Environment Variables
 .lock-wscript
